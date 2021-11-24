@@ -1,42 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ryan Luzentales</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ryan Luzentales</title>
+  <link rel="stylesheet" href="./app/css/style.css">
 </head>
 <body>
-    <h1>THIS PAGE IS UNDER CONSTRUCTION</h1>
+  <nav>
+    <div class="menu">
+      <ul class="navlink">
+        <li> <a href="#" class="nav-links"> Home </a> </li>
+        <li> <a href="#" class="nav-links"> Projects </a> </li>
+        <li> <a href="#" class="nav-links"> About </a> </li>
+      </ul>
+    </div>
+  </nav> 
 
 
-<!-- Messenger Chat Plugin Code -->
-<div id="fb-root"></div>
-
-<!-- Your Chat Plugin code -->
-<div id="fb-customer-chat" class="fb-customerchat">
-</div>
-
-<script>
-  var chatbox = document.getElementById('fb-customer-chat');
-  chatbox.setAttribute("page_id", "105577221898943");
-  chatbox.setAttribute("attribution", "biz_inbox");
-
-  window.fbAsyncInit = function() {
-    FB.init({
-      xfbml            : true,
-      version          : 'v12.0'
-    });
-  };
-
-  (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
-</script>
 </body>
 </html>
